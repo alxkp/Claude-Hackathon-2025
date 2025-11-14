@@ -8,10 +8,33 @@ dependencies = [
   "numpy",
   "opencv-python",
   "pandas",
+  "python-dotenv",
   "rerun-sdk",
   "scipy",
   "tqdm",
   "trimesh",
+]
+
+[project.optional-dependencies]
+webapp = [
+  "flask>=2.0.0",
+  "aiohttp>=3.8.0",
+]
+interactive = [
+  "pynput>=1.7.0",
+]
+gemini = [
+  "google-genai>=0.1.0",
+  "transformers>=4.30.0",
+  "torch>=2.0.0",
+]
+all = [
+  "flask>=2.0.0",
+  "aiohttp>=3.8.0",
+  "pynput>=1.7.0",
+  "google-genai>=0.1.0",
+  "transformers>=4.30.0",
+  "torch>=2.0.0",
 ]
 
 [project.scripts]
