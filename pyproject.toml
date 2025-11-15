@@ -38,7 +38,7 @@ all = [
 ]
 
 [project.scripts]
-arkit_scenes = "arkit_scenes.__main__:main"
+mm_editor = "mm_editor.__main__:main"
 
 [build-system]
 requires = ["hatchling"]
