@@ -18,3 +18,7 @@ Scrub through with the arrow keys till you hit the frames you want to enhance.
 Press e, input prompt and wait.
 
 Done
+
+## Images
+
+![Usage example of UI](usage.png)
