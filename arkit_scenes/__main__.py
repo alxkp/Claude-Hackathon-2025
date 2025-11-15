@@ -1,3 +1,9 @@
+# Based on the arkit_scenes example from Rerun
+# original: https://github.com/rerun-io/rerun/tree/docs-latest/examples/python/arkit_scenes
+# licensed under MIT license at LICENSES/rerun.txt
+
+# modififed with editing mechanics
+
 #!/usr/bin/env python3
 from __future__ import annotations
 
